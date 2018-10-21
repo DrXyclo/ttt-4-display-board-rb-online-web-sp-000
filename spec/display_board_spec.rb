@@ -145,7 +145,7 @@ describe "#display_board in 'lib/display_board.rb" do
 
       # Define the board with values that should create the desired output
       # *** Edit the line below ***
-      board = ["X", "X", "X", "X", "X", "X" "X", "X", "X"] # This is now correct
+      board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"] # This is now correct
 
       # Don't touch the following lines.
       output = capture_puts{ display_board(board) } if defined?(display_board)
@@ -186,7 +186,7 @@ describe "#display_board in 'lib/display_board.rb" do
       
        # Define the board with values that should create the desired output
       # *** Edit the line below ***
-      board = ["O", "O", "O", "O", "O", "O" "O", "O", "O"] # This is now correct
+      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"] # This is now correct
 
       # Don't touch the following lines.
       output = capture_puts{ display_board(board) } if defined?(display_board)
